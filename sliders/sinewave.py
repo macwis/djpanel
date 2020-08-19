@@ -35,8 +35,3 @@ class SineWave(param.Parameterized):
         x = np.linspace(0, 4 * np.pi, self.N)
         y = self.amplitude * np.sin(self.frequency * x + self.phase) + self.offset
         return x, y
-
-
-pn.Param(SineWave.param, widgets={
-    'select_offset': pn.widgets.FloatSlider(name='Custom offset', width=200),
-)
