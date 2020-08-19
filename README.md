@@ -12,5 +12,6 @@ Make sure you use Python>3.8.
 3. `virtualenv venv`
 4. `source venv/bin/activate`
 5. `pip install -r requirements.txt`
-6. `daphne djpanel.asgi:application`
-7. Open in your web browser: http://localhost:8000
+6. `python manage.py migrate`
+7. `daphne djpanel.asgi:application`
+8. Open in your web browser: http://localhost:8000
