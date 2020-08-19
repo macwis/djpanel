@@ -8,7 +8,9 @@ This project is a boilerplate: Django integration with Panel and Bokeh libraries
 Make sure you use Python>3.8.
 
 1. `git clone git@github.com:macwis/djpanel.git`
-2. `cd djpanel && virtualenv venv && source /venv/bin/activate`
-3. `pip install -r requirements.txt`
-4. `daphne djpanel.asgi:application`
-5. Open in your web browser: http://localhost:8000
+2. `cd djpanel`
+3. `virtualenv venv`
+4. `source venv/bin/activate`
+5. `pip install -r requirements.txt`
+6. `daphne djpanel.asgi:application`
+7. Open in your web browser: http://localhost:8000
