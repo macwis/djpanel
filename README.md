@@ -15,3 +15,10 @@ Make sure you use Python>3.8.
 6. `python manage.py migrate`
 7. `daphne djpanel.asgi:application`
 8. Open in your web browser: http://localhost:8000/sliders/
+
+---
+
+## Screenshots
+
+### Pic. 1 - Sliders view:
+![](django_panel.png?raw=true "Sliders")
